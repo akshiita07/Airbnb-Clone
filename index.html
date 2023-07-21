@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="airbnb.css">
+</head>
+
+<body>
+    <navbar class="nav">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo loading">
+        </div>
+
+
+        <button class="navbtn">
+            <h4>Anywhere</h4>
+            <p>|</p>
+            <h4>Any week</h4>
+            <p>|</p>
+            <p>Add guests</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="searchlogo"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+        </button>
+
+
+        <div class="nav3">
+            <button class="navbtn2">
+                Airbnb your home
+            </button>
+
+            <div class="globe">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="40" fill="currentColor" class="globelogo"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                </svg>
+            </div>
+
+            <button class="navbtn3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+            </button>
+        </div>
+
+    </navbar>
+
+    <div class="filters">
+        <div class="filter">
+            <img src="./images/logo1.jpg" alt="logo1">
+            <p>Rooms</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo2.jpg" alt="logo2">
+            <p>Farms</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo3.jpg" alt="logo3">
+            <p>Amazing Pools</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo4.jpg" alt="logo4">
+            <p>Mansions</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo5.jpg" alt="logo5">
+            <p>Treehouses</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo6.jpg" alt="logo6">
+            <p>Amazing views</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo7.jpg" alt="logo7">
+            <p>Countryside</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo8.jpg" alt="logo8">
+            <p>OMG!</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo9.jpg" alt="logo9">
+            <p>Beachfront</p>
+        </div>
+        <div class="filter">
+            <img src="./images/logo10.jpg" alt="logo10">
+            <p>Lakefront</p>
+        </div>
+
+        <button class="filterbt">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sliders"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z" />
+            </svg>
+            <p>Filters</p>
+        </button>
+    </div>
+
+    <div class="display">
+        <button class="displaybtn">
+            <h4>Display total price</h4>
+            <p>|</p>
+            <p>Includes all fees, before taxes</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#b0b0b0" class="togglelogo"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11 4a4 4 0 0 1 0 8H8a4.992 4.992 0 0 0 2-4 4.992 4.992 0 0 0-2-4h3zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5z" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- ROOM1  -->
+    <div class="rooms">
+        <div class="roombody">
+
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r1.webp" alt="r1">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p1.jpg" alt="owner1">
+                </div>
+            </div>
+
+
+
+            <div class="roomname">
+                <h4>Valencia,Spain</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.87</h4>
+                </div>
+
+            </div>
+            <div class="roomdetail">
+                <p>Stay with Sagrario Coach</p>
+                <p>13-18Nov</p>
+                <h4>₹3,924 night</h4>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- room2 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r2.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p2.webp" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Torino,Italy</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.87</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Carmela </p>
+                <p>7-12 Aug</p>
+                <h4>₹4,429 night</h4>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- room3 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r3.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p3.avif" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Nantes, France</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.96</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Golwen</p>
+                <p>30Jul-4Aug</p>
+                <h4>₹7,340 night</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- room4 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r4.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p4.webp" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Lyon, France</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>5.0</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Edouard- Trainer</p>
+                <p>16-21Jul</p>
+                <h4>₹8,054 night</h4>
+            </div>
+        </div>
+
+    </div>
+    <!-- room5 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r5.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p5.jpg" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>San Giorgio,Italy</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>5.0</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Raffaella-Cook</p>
+                <p>13-31Aug</p>
+                <h4>₹8,156 night</h4>
+            </div>
+        </div>
+
+    </div>
+    <!-- room6 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r6.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p6.cms" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>London,UK</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.92</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Sara-Environmental Activist</p>
+                <p>14-19Aug</p>
+                <h4>₹8,152 night</h4>
+            </div>
+        </div>
+
+    </div>
+    <!-- room7 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r7.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p7.jpg" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Frankston, Australia</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.897</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Blair</p>
+                <p>3-8Jul</p>
+                <h4>₹6,405 night</h4>
+            </div>
+        </div>
+
+    </div>
+    <!-- room8 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r8.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p8.png" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Valencia,Spain</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.87</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Sagrario Coach</p>
+                <p>13-18Nov</p>
+                <h4>₹3,924 night</h4>
+            </div>
+        </div>
+
+    </div>
+    <!-- room9 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r9.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p9.jpg" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Valencia,Spain</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.87</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Sagrario Coach</p>
+                <p>13-18Nov</p>
+                <h4>₹3,924 night</h4>
+            </div>
+        </div>
+
+    </div>
+    <!-- room10 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r10.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p1.jpg" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Valencia,Spain</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.87</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Sagrario Coach</p>
+                <p>13-18Nov</p>
+                <h4>₹3,924 night</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- room11 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r11.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p11.jpg" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Valencia,Spain</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.87</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Sagrario Coach</p>
+                <p>13-18Nov</p>
+                <h4>₹3,924 night</h4>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- room12 -->
+    <div class="rooms">
+        <div class="roombody">
+            <div class="roomimagedisplay">
+                <div class="roomimg">
+                    <img src="./images/r12.webp" alt="r2">
+                </div>
+
+                <div class="heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-heart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg>
+                </div>
+
+                <div class="ownerimg">
+                    <img src="./images/p12.jpg" alt="owner1">
+                </div>
+            </div>
+
+
+            <div class="roomname">
+                <h4>Valencia,Spain</h4>
+                <div class="rating">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-star-fill"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg>
+                    <h4>4.87</h4>
+                </div>
+
+            </div>
+
+            <div class="roomdetail">
+                <p>Stay with Sagrario Coach</p>
+                <p>13-18Nov</p>
+                <h4>₹3,924 night</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="foot">
+        <div>
+            <p> &copy; 2023 Airbnb,Inc. · Privacy · Terms · Sitemap · Company Details · Destinations</p>
+
+        </div>
+        <div>
+
+            <h4> Created by AKSHITA PATHAK (8283840233) </h4>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
